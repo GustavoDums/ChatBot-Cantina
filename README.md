@@ -6,7 +6,7 @@ MANUAL DE USO:
 
 2- Para usar o ChatBot, é preciso ter o Ollama baixado em seu sistema, para baixar, basta acessar o site oficial do Ollama e fazer o download, rode o modelo Mistral em sua máquina, para rodar o modelo digite no terminal ou no PowerShell o seguinte comando: 'Ollama run mistral'
 
-- Vale lembrar que este é um modelo relativamente pesado, mas entrega uma boa qualidade, por isso é necessário uma máquina próxima de um nível mediano para rodar. Ele precisa de aproximadamente 4gb a 5gb de memória RAM disponível.
+- Vale lembrar que este é um modelo relativamente pesado, mas entrega uma boa qualidade, por isso é necessária uma máquina próxima de um nível mediano para rodar. Ele precisa de aproximadamente 4gb a 5gb de memória RAM disponível.
 
 3- Após o modelo ser baixado, instale as dependências pelo Maven, é inportante ter o Maven instalado também, para rodar basta digitar no terminal da IDE o seguinte comando: 'mvn clean install'
 
@@ -14,7 +14,7 @@ MANUAL DE USO:
 
 5- Criado o bot no BotFather, entre no sistema e vá até a Classe 'CantinaTelegramBot' e no método 'getBotUsername()' troque o 'AQUI O NOME DO BOT CRIADO' pelo nome do Bot que foi criado, e no método 'getBotToken()' troque o 'AQUI O SEU TOKEN DO BOT', pelo token que o BotFather enviou. Atenção: Tenha cuidado com esse Token, pois qualquer pessoa com acesso a ele, terá total acesso ao seu Bot
 
-6- Apos isso o sistema estará pronto para ser executado, basta ir na Classe 'ConseleApp' que é a Main do sistema e executar, deve aparecer a mensagem que o bot foi iniciado com sucesso no seu terminal.
+6- Após isso o sistema estará pronto para ser executado, basta ir à Classe 'ConseleApp' que é a Main do sistema e executar, deve aparecer a mensagem que o bot foi iniciado com sucesso no seu terminal.
 
 7- Após executar, e confirmar que o bot foi iniciado corretamente, basta abrir o Telegram e pesquisar pelo nome que foi criado no BotFather
 

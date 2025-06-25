@@ -60,7 +60,7 @@ public class CantinaBot {
                         "Seu código de atendimento é #" + cliente.getCodigo() + ".\n\n" +
                         "Não altere o sentido as opções no menu, DEIXE exatamente como ele é, apenas formate, e mantenha igual sem alterar nada" +
                         "que seja de facil interpretação pelo usuario, mantenha exatamente igual como é" +
-                        "NÃO adicione exemplos"+ exibirMenuTelegram();
+                        "NÃO ADICIONE EXEMPLOS AO MENU, MANTENHA O MENU EXATAMENTE IGUAL, NÃO ALTERE NADA"+ exibirMenuTelegram();
 
                 //Retorna ao cliente, a mensagem inicial gerada pela IA
                 return iaBotService.melhorarResposta("Responda apenas em português do Brasil com simpatia e bom humor, " +
@@ -235,8 +235,8 @@ public class CantinaBot {
             String[] partes = comando.split(" ");  //Divide o comando digitado pelo cliente em partes
             if (partes.length != 3) {  //Verificação para ver se o comando tem 3 partes, (O comando('adicionar'), o numero do item, e a quantidade)
                 //Se não tiver os 3 espaços, ele retorna uma mensagem ao cliente pedido para escrever no formato correto
-                return iaBotService.melhorarResposta("Responda em português do Brasil, faça a frase simples e curta," +
-                        "sem alterar o sentido dela: " +
+                return iaBotService.melhorarResposta("Responda em português do Brasil, " +
+                        "sem alterar o sentido dela, apenas responda exatamente igual está aqui, não altere nada: " +
                         "Formato inválido. Use: adicionar [número do item] [quantidade]");
             }
 

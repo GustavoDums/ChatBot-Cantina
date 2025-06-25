@@ -8,7 +8,7 @@ MANUAL DE USO:
 
 - Vale lembrar que este é um modelo relativamente pesado, mas entrega uma boa qualidade, por isso é necessário uma máquina próxima de um nível mediano para rodar. Ele precisa de aproximadamente 4gb a 5gb de memória RAM disponível.
 
-3- Apos o modelo ser baixado, instale as depêndencias pelo Maven, é inportante ter o Maven instalado também, para rodar basta digitar no terminal da IDE o seguinte comando: 'mvn clean install'
+3- Após o modelo ser baixado, instale as dependências pelo Maven, é inportante ter o Maven instalado também, para rodar basta digitar no terminal da IDE o seguinte comando: 'mvn clean install'
 
 4- Entre no site oficial do Telegram e vá em API, procure pelo BotFather, e envie a mensagem '/start', este é um Bot oficial do Telegram para criar Bot's, ele vai guiar para a criação do nome e ID do seu bot, e vai enviar um Token de acesso.
 

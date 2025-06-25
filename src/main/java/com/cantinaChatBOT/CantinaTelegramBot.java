@@ -24,13 +24,13 @@ public class CantinaTelegramBot extends TelegramLongPollingBot {
     //Define o Username do bot no telegram (nome este que foi criado no BotFather)
     @Override
     public String getBotUsername() {
-        return "CantinaUnivilleChatBot";
+        return "AQUI O NOME DO BOT CRIADO";
     }
 
     //Token gerado pelo BotFather permite autenticar e enviar mensagens no nome do Bot
     @Override
     public String getBotToken() {
-        return "7700722473:AAGUt5c-dp0eYhiXDUw6g9oX-Ajakc5hob0";
+        return "AQUI O SEU TOKEN DO BOT";
     }
 
     //Este metodo é chamado toda vez que o bot recebe uma mensagem

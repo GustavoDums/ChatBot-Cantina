@@ -20,8 +20,8 @@ MANUAL DE USO:
 
 8- Identificado o seu Bot no Telegram, basta digitar uma mensagem padrão de iniciação dos bots do Telegram que é '/start', ou uma das opções que podem ser encontradas dentro da Classe 'CantinaBot' no método 'processarMensagemTelegram', um exemplo de outra mensagem para iniciar o bot seriam: 'Boa noite', 'Bom dia', 'Fala parceiro'. Lembrete: pode ser adicionado novas opções ou remover se quiser.
 
-9- Se quiser alterar o modelo de IA do Ollama para utilizar no sistema, basta alterar o nome no arquivo 'application.yml', que está na pasta 'resources', e instalar o modelo na sua máquina rodando o: 'Ollama run "NOME DO MODELO"', vale lembrar que é necessário uma máquino relativamente boa para rodar os modelos de IA com melhor processamento e criação de mensagens, procure os modelos no site oficial do Ollama, para lhe auxiliar na escolha. 
+9- Se quiser alterar o modelo de IA do Ollama para utilizar no sistema, basta alterar o nome no arquivo 'application.yml', que está na pasta 'resources', e instalar o modelo na sua máquina rodando o: 'Ollama run "NOME DO MODELO"', vale lembrar que é necessária uma máquina relativamente boa para rodar os modelos de IA com melhor processamento e criação de mensagens, procure os modelos no site oficial do Ollama, para lhe auxiliar na escolha. 
 
-10- Se quiser alterar a IA para uma que não seja do Ollama, basta fazer as alteração necessárias que a IA escolhida necessita, o processo de conversão para JSON, e a ponte entre o servidor e sistema Java já é todo automatizado, pois o sistema utiliza o Spring-AI para automatizar este processo.
+10- Se quiser alterar a IA para uma que não seja do Ollama, basta fazer as alterações necessárias que a IA escolhida necessita, o processo de conversão para JSON, e a ponte entre o servidor e sistema Java já é todo automatizado, pois o sistema utiliza o Spring-AI para automatizar este processo.
 
 11- Agora é só testar o seu Bot!
